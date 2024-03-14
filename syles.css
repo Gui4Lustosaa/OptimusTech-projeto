@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --preto: #3A404E;
+    --cinza: #667085;
+    --fonte-principal: "Inter", sans-serif;
+    --preto-texto: #101828;
+    --vermelho-claro: #C3191908;
+    --cinza-borda: #EAECF0;
+    --branco-fundo: #F9FAFB;
+}
+
+.textos { background-color: transparent !important;}
+
+* {
+    font-size: 16px;
+    background-color: var(--branco);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 7em;
+}
+
+.logo__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7em;
+}
+
+.cabecalho__logo {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.logo__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+}
+
+.cabecalho__home {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    margin: 0 6em;
+}
+
+.cabecalho__home-link {
+    color: var(--cinza);
+    text-decoration: none;
+    padding: 1.8em;
+}
+
+.cabecalho__botao {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho__botao-link {
+    color: var(--cinza);
+    text-decoration: none;
+    padding: 1em;
+}    
+
+.cabecalho__botao-link-vermelho {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 0.8em 1em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.container__sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 35em;
+
+}
+
+.container__texto-sobre {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.container__texto-principal {
+    font-size: 48px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--preto-texto);
+    padding: 0.5em 0 1em;
+}
+
+.container__texto-descricao {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cinza);
+    line-height: 30px;
+    text-align: center;
+}
+
+.conquistas {
+    display: flex;
+    justify-content: space-around;
+    margin:  8em 10em;
+}
+
+.conquistas__projetos {
+    width: 20%;
+}
+
+.conquistas__alcance-numeros {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    
+}
+
+.conquistas__alcance {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--preto-texto);
+    padding: 1em 0 0.5em 0;
+}
+
+.conquistas__texto {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    line-height: 1.5em;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__texto-abertas {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    background-color: var(--vermelho-claro);
+    border-radius: 10px;
+    color: var(--vermelho);
+    padding: 0.2em 0.8em;
+}
+
+.vagas__texto-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-texto);
+    font-family: var(--fonte-principal);
+    padding: 0.5em 0;
+}
+
+.vagas__texto-descricao {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    padding: 0 0 2.5em 0;
+}
+
+.profissoes {
+    text-align: left;
+    margin: 0 600px 4em 600px;
+}
+
+.profissoes__design-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--preto-texto);
+    padding: 2.5em 0 1em 0;
+}
+
+.profissoes__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.profissoes__design {
+    border: 1px solid var(--cinza-borda);
+    padding: 1em 0 1em 2em;
+}
+
+.profissoes__design-productdesign {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--preto-texto);
+    padding: 0 0 1.6em 0;
+}
+
+.profissoes__container {
+    display: flex;
+    gap: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+}
+
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8em 15em 5em 15em;
+    padding: 5em;
+    background-color: var(--vermelho-claro);
+}
+
+.colaboradores__texto {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+}
+
+.colaboradores__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--preto-texto);
+    padding: 0.7em 1em 0 1em;
+}
+
+.colaboradores__logo {
+    padding: 2em 0 0 0;
+}
+
+.colaboradores__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto-texto);
+    font-family: var(--fonte-principal);
+    padding: 1em 0 0.5em 0;
+}
+
+.colaboradores__profissao {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--preto-texto);
+    margin: 2em 0 0 0;
+}
+
+.rodape__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    margin: 1em 0 2em 0;
+}
+
+.rodape__botao {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    background-color: var(--vermelho);
+    text-decoration: none;
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    margin: 0 0 0 1em;
+}
+
+.rodape__caixa-email {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rodape__email {
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    color: var(--cinza);
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.rodape__direitos {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    margin: 1em 0 3em 0;
+}
